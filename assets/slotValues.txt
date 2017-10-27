@@ -1,0 +1,17 @@
+LIST_OF_COLOURS
+red
+green
+blue
+yellow
+white
+black
+
+CONTINUE_OPTIONS
+Yes
+No
+
+LIST_OF_SHAPES
+square
+circle
+triangle
+cross

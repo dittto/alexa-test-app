@@ -1,0 +1,16 @@
+version: '2.0'
+services:
+
+    alexa-test:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: alexa-test
+        environment:
+            SLS_DEBUG: "*"
+        volumes:
+            - .:/var/alexa-test
+
+    alexa-dynamo-db:
+        image: cnadiminti/dynamodb-local
+        container_name: alexa-dynamo-db

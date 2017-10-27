@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "intent": "ColourIntent",
+      "slots": [
+        {
+          "name": "colour",
+          "type": "LIST_OF_COLOURS"
+        }
+      ]
+    },
+    {
+      "intent": "ContinueIntent",
+      "slots": [
+        {
+          "name": "continue_option",
+          "type": "CONTINUE_OPTIONS"
+        }
+      ]
+    },
+    {
+      "intent": "ShapeIntent",
+      "slots": [
+        {
+          "name": "shape",
+          "type": "LIST_OF_SHAPES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}

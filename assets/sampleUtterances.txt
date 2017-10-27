@@ -1,0 +1,3 @@
+ColourIntent My favourite colour is {colour}
+ShapeIntent My favourite shape is {shape}
+ContinueIntent {continue_option}

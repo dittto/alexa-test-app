@@ -1,0 +1,4 @@
+etc/aws*
+.idea
+src/.serverless
+src/node_modules

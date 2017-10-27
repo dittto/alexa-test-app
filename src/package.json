@@ -1,0 +1,10 @@
+{
+  "name": "AlexaTest",
+  "version": "0.0.1",
+  "description": "Alexa test code",
+  "main": "handler.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0",
+    "serverless-shared-vars": "^1.0.2"
+  }
+}

@@ -18,7 +18,7 @@ provider:
 
 functions:
   alexaTest:
-    handler: handler.alexaTest
+    handler: src/handler.alexaTest
     events:
       - alexaSkill
 

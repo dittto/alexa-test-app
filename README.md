@@ -12,7 +12,7 @@ npm install
 
 To test, run:
 ```bash
-serverless invoke local --function alexaTest --path ../lib/01-initial-request.json
+serverless invoke local --function alexaTest --path lib/01-initial-request.json
 ```
 
 To deploy, run:

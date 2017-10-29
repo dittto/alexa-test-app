@@ -31,5 +31,5 @@ RUN             apt-get clean && \
 # Fix vim controls
 RUN             echo "set term=xterm-256color" >> ~/.vimrc
 
-WORKDIR         /var/alexa-test/src
+WORKDIR         /var/alexa-test
 CMD             ["tail", "-F", "-n0", "/etc/hosts"]
